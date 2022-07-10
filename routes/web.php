@@ -21,3 +21,13 @@ Route::get('/', function () {
     // dd($comics);
     return view('home',['comics' => $comics]);
 });
+Route::get('product/{id}', function ($id) {
+    $comics = (config('comics'));
+
+    if($id >= count($comics)){
+        abort('404');
+    }
+    $product = $comics[$id];
+    dd($product);
+     return view('product',['comics' => $comics]);
+})->where('id','[0-9]+');

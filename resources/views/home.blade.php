@@ -5,10 +5,10 @@
 @endsection
 
 @section('page-content')
-    <section>
-        <ul>
+    <section class="contain">
+        <ul class="row">
             @foreach ($comics as $comic)
-                <li>
+                <li class="col-2">
                     <img src="{{$comic['thumb']}}" alt="thumb">
                     <h4>{{$comic['series']}}</h4>
                 </li>
@@ -16,5 +16,5 @@
             @endforeach
         </ul>
     </section>
-    @dump($comics)
+    {{-- @dump($comics) --}}
 @endsection
