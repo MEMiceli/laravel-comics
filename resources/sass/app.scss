@@ -1,3 +1,9 @@
-body {
-    background-color: aqua;
-}
+@import '~bootstrap/scss/bootstrap';
+@import 'partials/reset';
+@import 'partials/variable';
+@import 'partials/typography';
+@import 'partials/header';
+@import 'partials/foother';
+@import 'partials/main'
+
+

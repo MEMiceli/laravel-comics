@@ -1,0 +1,54 @@
+.footertop{
+    background-color: var(--primary-color);
+    
+}
+
+.boximagef{
+    width: 4rem;
+    
+}
+
+img{
+    width: 100%;
+}
+.ulft{
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+    
+}
+.lift{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: .625rem;
+}
+footer{
+    color: white;
+    background-image: url('../../../public/images/footer-bg.jpg');
+    background-size: cover;
+    
+}
+.containerf{
+    display: flex;
+}
+.footermiddlehalf{
+    display: flex;
+    
+}
+.ulh{
+    display: flex;
+    flex-direction: column;
+}
+.lih{
+    padding: .125rem;
+    font-size: smaller;
+    color:silver;
+    text-transform: capitalize;
+}
+.footerbottom{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content:space-between;
+}

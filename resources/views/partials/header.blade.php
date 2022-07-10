@@ -6,7 +6,7 @@
     </div>
     <div class="left_header">
       <nav class="nav_header">
-          <ul>
+          <ul class="ul_header">
               <li><a href="#"></a>Characters</li>
               <li class="active"><a href="#"></a>Comics</li>        
               <li><a href="#"></a>Movies</li>
