@@ -67,7 +67,7 @@
         </div>
         <div class="footerbottomright">
             <ul  class="ulft">
-                <li  class="lift"><a href="#"></a>Follow Us</li>
+                <li class="lift"><a href="#"></a>Follow Us</li>
                 <li class="lift"><a href="#"></a><img src="{{asset('images/footer-facebook.png')}}" alt="facebook"></li>
                 <li class="lift"><a href="#"></a><img src="{{asset('images/footer-twitter.png')}}" alt="twitter"></li>
                 <li class="lift"><a href="#"></a><img src="{{asset('images/footer-youtube.png')}}" alt="youtube"></li>
