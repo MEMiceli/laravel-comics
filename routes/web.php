@@ -28,6 +28,6 @@ Route::get('product/{id}', function ($id) {
         abort('404');
     }
     $product = $comics[$id];
-    dd($product);
+    // dd($product);
      return view('product',['comics' => $comics]);
 })->where('id','[0-9]+');
